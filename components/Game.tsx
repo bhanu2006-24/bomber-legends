@@ -1056,7 +1056,7 @@ const Game: React.FC = () => {
 
     // Overlays
     if (state.status === 'MENU') {
-        drawOverlay(ctx, 'BOMBER LEGENDS', 'Press SPACE to Start', theme.colors.uiTitle);
+        drawOverlay(ctx, 'BOMBER LEGENDS', 'Press SPACE or Tap BOMB to Start', theme.colors.uiTitle);
     }
     else if (state.status === 'GAME_OVER') {
         drawOverlay(ctx, 'GAME OVER', `Lvl: ${state.level}  Score: ${state.score}`, '#ef4444');

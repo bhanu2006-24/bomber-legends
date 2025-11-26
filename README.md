@@ -1,20 +1,67 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+  <img src="public/banner.png" alt="Bomber Legends Banner" width="100%" />
 </div>
 
-# Run and deploy your AI Studio app
+# Bomber Legends
 
-This contains everything you need to run your app locally.
+A classic arcade-style bomber game built with React and TypeScript. Navigate through grid-based levels, place bombs to destroy obstacles and enemies, and collect power-ups to enhance your abilities.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1lqdGXEhUW9U5kluoutQpThQTXoyKFtXL
+**Live Demo:** [bomber-legends.pages.dev](https://bomber-legends.pages.dev)
 
-## Run Locally
+## 📸 Screenshots
 
-**Prerequisites:**  Node.js
+<div align="center">
+  <img src="public/img1.png" alt="Gameplay Screenshot 1" width="32%" />
+  <img src="public/img2.png" alt="Gameplay Screenshot 2" width="32%" />
+  <img src="public/img3.png" alt="Gameplay Screenshot 3" width="32%" />
+</div>
 
+## 🎮 Features
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **Classic Gameplay**: Strategic bomb placement and grid movement.
+- **Multiple Themes**: Explore different environments like Forest, River, Mountain, and Village.
+- **Power-ups**:
+  - 💥 **Blast**: Increases explosion range.
+  - ⚡ **Speed**: Increases movement speed.
+  - 💣 **Bomb**: Increases maximum bomb count.
+  - 🛡️ **Shield**: Grants temporary invincibility.
+  - 🦶 **Kick**: Ability to kick bombs.
+- **Diverse Enemies**: Face off against Snakes, Bulls, and Demons, each with unique behaviors.
+- **Responsive Controls**: Play on Desktop with keyboard or Mobile with touch controls.
+- **Sound Effects**: Immersive audio for actions and events.
+
+## 🕹️ Controls
+
+### Desktop
+- **Movement**: `Arrow Keys` or `WASD`
+- **Place Bomb**: `SPACE`
+- **Dash**: `SHIFT`
+- **Pause**: `P`
+
+### Mobile
+- **Movement**: On-screen D-Pad
+- **Place Bomb / Start**: Tap the large **BOMB** button
+- **Dash**: Tap the **WIND** icon
+
+## 🚀 Run Locally
+
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+2. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+3. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React, TypeScript, Vite
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
