@@ -26,7 +26,7 @@ export const COLORS = {
 
 export const THEMES: Theme[] = [
   {
-    name: 'Whispering Woods',
+    name: 'Woods',
     type: ThemeType.FOREST,
     colors: {
       bg: '#2d8f3e', 
@@ -38,7 +38,7 @@ export const THEMES: Theme[] = [
     }
   },
   {
-    name: 'Crystal River',
+    name: 'River',
     type: ThemeType.RIVER,
     colors: {
       bg: '#1e40af', // Deep Blue
@@ -50,7 +50,7 @@ export const THEMES: Theme[] = [
     }
   },
   {
-    name: 'Granite Peaks',
+    name: 'Peaks',
     type: ThemeType.MOUNTAIN,
     colors: {
       bg: '#4b5563', // Grey Rocky
@@ -62,7 +62,7 @@ export const THEMES: Theme[] = [
     }
   },
   {
-    name: 'Brick Town',
+    name: 'Town',
     type: ThemeType.VILLAGE,
     colors: {
       bg: '#713f12', // Earthy Floor
